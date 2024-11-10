@@ -1,0 +1,46 @@
+
+.meuServico {
+  background-color: var(--gray-100);
+  padding: 88px 120px 120px;
+
+  text-align: center;
+
+  h3 {
+    margin-bottom: 56px;
+  }
+
+  h5 {
+    font: var(--title-sm);
+    color: var(--gray-600);
+
+    margin-top: 20px;
+    margin-bottom: 8px;
+  }
+
+  p {
+    font: var(--text-sm);
+    color: var(--gray-500);
+  }
+
+  .card1, .card2, .card3  {
+    border: 1px solid var(--gray-200);
+    text-align: start;
+    width: 280px;
+    height: 155px;
+    padding: 20px;
+    
+  }
+
+  .card1 img {
+    color: violet;
+  }
+
+  .cards {
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: 280px 280px 280px;
+    justify-content: center;
+
+    gap: 24px;
+  }
+}

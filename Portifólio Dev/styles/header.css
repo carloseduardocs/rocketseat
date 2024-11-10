@@ -1,0 +1,44 @@
+header {
+
+  max-width: 1366px;
+  height: 750px;
+  text-align: center;
+
+
+  color: aliceblue;
+
+  
+h2 {
+  font: var(--title-lg);
+  margin-bottom: 20px;
+}
+
+h4 {
+  font: var(--subtitle);
+}
+
+span {
+  color: #E3646E;
+}
+
+img {
+  margin-bottom: 94px;
+}
+
+}
+
+.profile {
+  width: 680px;
+  margin: auto;
+  text-align: center;
+
+  img {
+    margin: 80px auto 56px;
+  }
+
+  p {
+    margin-bottom: 80px;
+    height: 40px;
+  }
+
+}

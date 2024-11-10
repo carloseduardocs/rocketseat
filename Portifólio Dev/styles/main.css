@@ -1,0 +1,56 @@
+
+main {
+  margin: auto;
+  max-width: 1040px;
+  
+  text-align: center;
+}
+
+
+figure {
+
+ background-color: var(--gray-300);
+ border-radius: 8px;
+ text-align: start;
+
+
+  width: 330px;
+  height: 280px;
+  
+  padding: 10px;
+
+  img {
+    width: 310px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+
+  h5 {
+    font: var(--title-sm);
+    color: var(--gray-600);
+
+    margin-bottom: 8px;
+  }
+
+  p {
+    font: var(--text-sm);
+    color: var(--gray-500);
+  }
+
+}
+
+.gridProjetos {
+  margin-top: 56px;
+
+  display: grid;
+  grid-template-columns: 330px 330px 330px;
+  justify-content: space-between;
+
+  gap: 24px;
+}
+
+.projetos {
+  margin-bottom: 144px;
+}
+
+
